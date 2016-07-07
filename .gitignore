@@ -27,3 +27,9 @@
 *.exe
 *.out
 *.app
+
+# CMake build
+build/
+
+# vim temp
+*.swp
