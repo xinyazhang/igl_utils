@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(obj2ply)
-set (obj2ply_VERSION_MAJOR 0)
-set (obj2ply_VERSION_MINOR 1)
+project(igl_utils)
+set (igl_utils_VERSION_MAJOR 0)
+set (igl_utils_VERSION_MINOR 1)
 
 find_package(Eigen3 REQUIRED)
 include_directories(${IGL_INCLUDE_DIR})
