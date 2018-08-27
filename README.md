@@ -1,5 +1,8 @@
-# obj2ply
-A simple tool that converts Wavefront OBJ files to Stanford PLY files.
+# IGL UTILS
+A set of command line utilities that process geometry files with libigl.
+
+## List of Binaries
+* obj2ply: Convert Wavefront OBJ files to Stanford PLY files.
 
 ## Build
 To build
@@ -11,10 +14,11 @@ To build
 
 ## Install
 
-Copy obj2ply to anywhere you like.
+Copy the binaries to anywhere you like.
 No `make install` target is provided since this is really a tiny tool.
 
 ## Use
+### obj2ply
 ```obj2ply <obj files>```
 
 No need to specify the output file names. This tool will output PLY files with
