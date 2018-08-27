@@ -8,5 +8,5 @@ find_package(Eigen3 REQUIRED)
 include_directories(${IGL_INCLUDE_DIR})
 include_directories(${EIGEN3_INCLUDE_DIR})
 
-AUX_SOURCE_DIRECTORY(src SRC)
-ADD_EXECUTABLE(obj2ply ${SRC})
+ADD_EXECUTABLE(obj2ply src/obj2ply.cc)
+ADD_EXECUTABLE(obj2m src/obj2m.cc)
