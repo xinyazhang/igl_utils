@@ -4,6 +4,7 @@ A set of command line utilities that process geometry files with libigl.
 ## List of Binaries
 * obj2ply: Convert Wavefront OBJ files to Stanford PLY files.
 * obj2m: Convert Wavefront OBJ files to Mathematica BoundaryMeshRegion object.
+* objtl: Translate geometry stored in the Wavefront OBJ file.
 
 ## Build
 To build
@@ -29,3 +30,8 @@ ignored (case sensitive).
 ### obj2m
 ```obj2m <obj files>```
 
+### objtl
+```obj2m <input obj file> <X> <Y> <Z> <output obj file>```
+
+Translate the geometry stored in the input file by XYZ and write the results
+to the output file.
