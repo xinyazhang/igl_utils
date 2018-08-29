@@ -4,6 +4,7 @@ A set of command line utilities that process geometry files with libigl.
 ## List of Binaries
 * obj2ply: Convert Wavefront OBJ files to Stanford PLY files.
 * obj2m: Convert Wavefront OBJ files to Mathematica BoundaryMeshRegion object.
+* tet2m: Translate [tetgen](http://www.tetgen.org/) output files to Mathematica MeshRegion object.
 * objtl: Translate geometry stored in the Wavefront OBJ file.
 * objcenter: Translate geometry so that the mean of its vertices is the origin.
 
@@ -28,8 +29,13 @@ No need to specify the output file names. This tool will output PLY files with
 the same base name of OBJ files.  Files without .obj as the extension will be
 ignored (case sensitive).
 
-### obj2m
+### obj2m and tet2m
 `obj2m <obj files>`
+`tet2m <prefix of tetgen output files> [-o <output file>]`
+
+obj2m places the output to files of the same prefix with .m suffix.
+
+tet2m prints the output to standard output if `-o` is not specified.
 
 ### objtl
 `objtl <input obj file> <X> <Y> <Z> <output obj file>`
