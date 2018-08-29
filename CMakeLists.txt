@@ -11,4 +11,5 @@ include_directories(${EIGEN3_INCLUDE_DIR})
 ADD_EXECUTABLE(obj2ply src/obj2ply.cc)
 ADD_EXECUTABLE(obj2m src/obj2m.cc)
 ADD_EXECUTABLE(objtl src/objtl.cc)
+ADD_EXECUTABLE(objcenter src/objcenter.cc)
 

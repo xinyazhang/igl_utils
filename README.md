@@ -5,6 +5,7 @@ A set of command line utilities that process geometry files with libigl.
 * obj2ply: Convert Wavefront OBJ files to Stanford PLY files.
 * obj2m: Convert Wavefront OBJ files to Mathematica BoundaryMeshRegion object.
 * objtl: Translate geometry stored in the Wavefront OBJ file.
+* objcenter: Translate geometry so that the mean of its vertices is the origin.
 
 ## Build
 To build
@@ -21,17 +22,20 @@ No `make install` target is provided since this is really a tiny tool.
 
 ## Use
 ### obj2ply
-```obj2ply <obj files>```
+`obj2ply <obj files>`
 
 No need to specify the output file names. This tool will output PLY files with
 the same base name of OBJ files.  Files without .obj as the extension will be
 ignored (case sensitive).
 
 ### obj2m
-```obj2m <obj files>```
+`obj2m <obj files>`
 
 ### objtl
-```obj2m <input obj file> <X> <Y> <Z> <output obj file>```
+`objtl <input obj file> <X> <Y> <Z> <output obj file>`
 
 Translate the geometry stored in the input file by XYZ and write the results
 to the output file.
+
+### objcenter
+`objcenter <input obj file> <output obj file>`
