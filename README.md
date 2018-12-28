@@ -7,6 +7,10 @@ A set of command line utilities that process geometry files with libigl.
 * tet2m: Translate [tetgen](http://www.tetgen.org/) output files to Mathematica MeshRegion object.
 * objtl: Translate geometry stored in the Wavefront OBJ file.
 * objcenter: Translate geometry so that the mean of its vertices is the origin.
+* iglremesh: Remesh through upsampling and then downsampling
+    + This code is derived from [Josh V's remesh-script](https://github.com/the13fools/remesh-script)
+    + Unlike the other binaries, the iglremesh is licensed under MPL 2.0. See
+      LICENSE.MPL2 for the details.
 
 ## Build
 To build
