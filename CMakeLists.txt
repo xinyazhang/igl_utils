@@ -13,6 +13,7 @@ ADD_EXECUTABLE(obj2ply src/obj2ply.cc)
 ADD_EXECUTABLE(obj2m src/obj2m.cc)
 ADD_EXECUTABLE(objtl src/objtl.cc)
 ADD_EXECUTABLE(objcenter src/objcenter.cc)
+ADD_EXECUTABLE(plycenter src/plycenter.cc)
 ADD_EXECUTABLE(tet2m src/tet2m.cc)
 ADD_EXECUTABLE(iglremesh src/iglremesh.cc)
 
