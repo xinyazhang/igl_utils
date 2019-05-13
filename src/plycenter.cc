@@ -29,6 +29,8 @@ int main(int argc, char* argv[])
 		return -1;
 	}
 	Eigen::Vector3d means = V.colwise().mean();
+	std::cout.precision(17);
+	std::cout << "Move the puzzle by " << - means.transpose() << std::endl;
 	V.col(0).array() -= means(0);
 	V.col(1).array() -= means(1);
 	V.col(2).array() -= means(2);

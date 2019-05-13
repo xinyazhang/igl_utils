@@ -11,7 +11,7 @@ constexpr int kOutputArg = 2;
 void usage()
 {
 	std::cerr << R"xxx(Missing arguments. Usage:
-objtl <Input OBJ file> <X> <Y> <Z> <Output OBJ file>
+objcenter <Input OBJ file> <Output OBJ file>
 )xxx";
 }
 
