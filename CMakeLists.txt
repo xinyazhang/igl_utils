@@ -10,6 +10,7 @@ include_directories(${IGL_INCLUDE_DIR})
 include_directories(${EIGEN3_INCLUDE_DIR})
 
 ADD_EXECUTABLE(obj2ply src/obj2ply.cc)
+ADD_EXECUTABLE(ply2obj src/ply2obj.cc)
 ADD_EXECUTABLE(obj2m src/obj2m.cc)
 ADD_EXECUTABLE(objtl src/objtl.cc)
 ADD_EXECUTABLE(objsa src/objsa.cc)
