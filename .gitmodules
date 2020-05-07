@@ -1,0 +1,3 @@
+[submodule "third-party/tetgen"]
+	path = third-party/tetgen
+	url = https://github.com/jdumas/tetgen
